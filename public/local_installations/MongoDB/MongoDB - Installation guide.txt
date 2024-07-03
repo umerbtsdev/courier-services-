@@ -1,0 +1,7 @@
+1. Place this "php_mongodb.dll" file in the extension folder on your folder.
+2. Include this extension in your "php.ini" file.
+3. Restart your server.
+4. Check the mongodb section in your "phpinfo".
+5. Run composer update.
+6. In any case, if these steps fail, try and understand the error or get help. 
+   Mostly it's the version that creates mess all around.

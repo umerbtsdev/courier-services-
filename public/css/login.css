@@ -1,0 +1,374 @@
+
+/*Login Style*/
+html,body
+{
+  height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.screen-login a
+{
+  text-decoration: none;
+}
+.screen-login
+{
+  width: 100%;
+  height: 100%;
+  background: url('../img/custom/bg.jpg') no-repeat;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.screen-login-content {
+    background: none !important;
+}
+.screen-login-content
+{
+  width: 600px;
+  height: 420px;
+  border-radius: 40px;
+  background: rgba(0,0,0, .1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -300px;
+  margin-top: -250px;
+}
+
+
+
+.logo-tango
+{
+    font-family: 'Roboto', sans-serif;
+  position: relative;
+    margin: 50px auto 40px auto;
+    line-height: 30px;
+    display: block;
+    width: auto;
+    height: auto;
+    font-weight: 900;
+    font-size: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.logo-tango {
+    margin: 30px auto 25px auto;
+    display: block;
+    position: relative;
+    width: 180px;
+}
+.logo-tango img {
+    width: 99%;
+    position: relative;
+    margin-left: -40px;
+}
+
+.logo-tango em
+{
+    font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  color: #fcb813;
+    font-weight: 100;
+}
+
+.screen-login ul
+{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.screen-login ul li
+{
+  position: relative;
+  overflow: hidden;
+  padding: 0 15%;
+}
+.screen-login ul li .checkbox
+{
+  margin-left: 20px;
+}
+.screen-login ul li input
+{
+  width: 100%;
+  padding: 20px 20px 20px 50px;
+  box-sizing: border-box;
+  border-radius: 40px;
+  background: rgba(0,0,0, .1);
+  color: #fff;
+  font-size: 13px;
+  border: 0;
+  margin: 10px auto;
+  display: block;
+  outline: none;
+  transition: all .2s ease-in;
+}
+.screen-login ul li input
+{
+     border: 1px solid #10c4b5;
+}
+
+.screen-login ul li input[type="checkbox"]
+{
+     width: 12px;
+    margin: 2px 0px 0px 0px;
+    height: 12px !important;
+    float: left;
+    font-size: 12px;
+    opacity: 1 !important;
+}
+
+.screen-login ul li label
+{
+  float: left;
+  color: #fff;
+  font-weight: normal;
+  font-size: 12px;
+  cursor: pointer;
+}
+.screen-login ul li  .checkbox label
+{
+  margin-left: 6px;
+  text-decoration: underline;
+
+}
+
+.screen-login ul li .btn-forget
+{
+  float: right;
+  color: #fff;
+  font-weight: normal;
+  margin-top: 7px;
+  font-size: 13px;
+  margin-right: 20px;
+  padding: 0 5px 1px 5px;
+  transition: all .2s ease-in;
+}
+
+.screen-login ul li .btn-forget:hover
+{
+  background-color: #fcb813;
+}
+
+.screen-login ul li .btn-signin
+{
+  color: #fff;
+  background: #fcb813;
+  font-weight: normal;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  display: block;
+  border-radius: 40px;
+  text-align: center;
+  margin: 20px 0;
+  width: 100%;
+  border: none;
+  transition: all .2s ease-in;
+}
+.screen-login ul li .btn-signin {
+    background: #10c4b5;
+}
+.screen-login ul li .btn-signin:hover,
+.screen-login ul li.btn-signin.active
+{
+   background: #fff;
+    color: #005562;
+}
+.screen-login ul li input[type="email"]:hover,
+.screen-login ul li input[type="password"]:hover,
+.screen-login ul li input[type="email"]:focus,
+.screen-login ul li input[type="password"]:focus
+{
+    color: #3d3d3d;
+    background-color: #fff;
+}
+
+.screen-login ul li input[type="email"]:hover ~ i,
+.screen-login ul li input[type="email"]:focus ~ i,
+.screen-login ul li input[type="password"]:hover ~ i,
+.screen-login ul li input[type="password"]:focus ~ i
+{
+  color: #3d3d3d;
+}
+input[type="text"]:focus,
+input[type="password"]:focus
+{
+  background-color: #fff;
+}
+
+.screen-login ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+  transition: all .2s ease-in;
+}
+.screen-login ::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+  transition: all .2s ease-in;
+}
+.screen-login :-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+  transition: all .2s ease-in;
+}
+.screen-login :-moz-placeholder { /* Firefox 18- */
+  color: #fff;
+  transition: all .2s ease-in;
+}
+
+.screen-login ul li input[type="text"]:hover::-webkit-input-placeholder, /* Chrome/Opera/Safari */
+.screen-login ul li input[type="email"]:hover::-webkit-input-placeholder ,
+.screen-login ul li input[type="password"]:hover::-webkit-input-placeholder
+{ /* Chrome/Opera/Safari */
+  color: #3d3d3d;
+}
+
+.screen-login ul li i.fa
+{
+  position: absolute;
+  top: 34px;
+  left: calc(15% + 27px);
+  color: #fff;
+}
+
+.screen-login .alert
+{
+    border-radius: 0;
+    border: 0;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+.screen-login .alert ul
+{
+  margin: 0;
+  padding: 0;
+}
+.screen-login .alert ul li::before
+{
+  content: "*";
+  display: inline-block;
+  color: #fff;
+  position: relative;
+  left: -5px;
+  top: 2px;
+}
+
+.screen-login ul li a
+{
+     color: #fff;
+    /*margin: 0 10px 0 0;*/
+    font-size: 12px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.screen-login .other-info a
+{
+  margin: 0 10px 0 0;
+}
+.screen-login .other-info
+{
+  padding: 0px 12px;
+  overflow: hidden;
+}
+.screen-login .other-info span
+{
+  padding-left: 4px;
+}
+
+/*Forgot Password Section*/
+
+#email-sectionbox 
+{
+    position: relative;
+    overflow: hidden;
+    padding: 0 15%;
+}
+
+#email-sectionbox input[type="email"]
+{
+    width: 100%;
+    padding: 30px 20px 30px 50px;
+    box-sizing: border-box;
+    border-radius: 40px;
+    background: rgba(0,0,0, .1);
+    color: #fff;
+    font-size: 14px;
+    border: 1px solid #10c4b5;
+    margin: 10px auto;
+    display: block;
+    outline: none;
+    transition: all .2s ease-in;
+
+    
+}
+
+#email-sectionbox input[type="email"]:hover,
+#email-sectionbox input[type="email"]:focus
+{
+
+    color: #3d3d3d;
+    background-color: #fff;
+}
+
+#email-sectionbox .btn.btn-flat
+{
+    background: #10c4b5;
+    color: #fff;
+    font-weight: normal;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    display: block;
+    border-radius: 40px !important;
+    text-align: center;
+    margin: 20px 0;
+    width: 100%;
+    border: none;
+    margin-top: 34px;
+    transition: all .2s ease-in; 
+}
+#email-sectionbox .btn:hover,#email-sectionbox .btn:active
+{
+   background: #fff;
+    color: #005562;
+
+}
+
+#email-sectionbox .glyphicon.glyphicon-envelope
+{
+    position: absolute;
+    top: 15px;
+    left: calc(0% + 15px);
+    color: #fff;
+}
+
+#email-sectionbox .col-xs-8
+{
+  width: 100% !important;
+}
+
+#email-sectionbox  input[type="email"]:hover::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #3d3d3d;
+}
+
+#email-sectionbox input[type="email"]:hover ~ span,
+#email-sectionbox input[type="email"]:focus ~ span
+{
+  color: #3d3d3d;
+}
+
+#email-sectionbox .other-info
+{
+    position: absolute;
+    top: 84px;
+    width: 71%;
+}
+
+#email-sectionbox .other-info a
+{
+  color: #fff !important;
+  text-decoration: underline;
+  font-size: 12px !important;
+}

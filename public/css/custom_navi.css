@@ -1,0 +1,15 @@
+ul.treeview-menu  li.custom{
+    /* box-shadow:1px 1px 27px -5px rgba(0,0,0,1); */
+}
+i.fa:hover, i.fa:focus,i.fa:active{
+    color:seagreen;
+}
+.menu-open>a:first-child>i{
+    color:seagreen;
+}
+.custom>a>i{
+    color:darkkhaki; 
+}
+.custom>a>i:focus, .custom>a>i:hover{
+    color:khaki;
+}

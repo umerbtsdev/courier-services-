@@ -1,0 +1,16 @@
+*{
+
+}
+.display-inline{
+	display: inline-block
+}
+.btn-cus-dessign{
+	color: white !important;
+	display: inline-block;
+}
+.float-left{
+	float: left !important;
+}
+.float-right{
+	float: right !important;
+}
